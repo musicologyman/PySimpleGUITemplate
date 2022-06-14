@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python3 -m venv --upgrade-deps --prompt $(basename $(pwd)) .venv
+source .venv/bin/activate
+pip install pysimplegui
